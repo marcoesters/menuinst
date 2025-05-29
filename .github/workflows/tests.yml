@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+      - conda-activation-win-debug
     paths-ignore:
       - "docs/**"
   pull_request:
